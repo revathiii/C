@@ -5,6 +5,6 @@ void main()
     printf("%05d",a);
 }
 
-O/P:
+//O/P:00005
 
-00005
+
