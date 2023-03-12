@@ -1,15 +1,27 @@
 #include<stdio.h>
-int main(){
-    if((9&(1<<3))==0)
+
+void main(){
+    int n;
+    int bit;
+    printf("Enter n:");
+    scanf("%d",&n);
+    printf("Enter bit:");
+    scanf("%d",&bit);
     {
-        printf("Not set");
-    }
-    else
-    {
-         printf("set");
+     if((n&(1<<bit))==0)
+
+        printf("Not Set");
+
+     else
+
+        printf("Set");
 
     }
+
 
 }
 
-// Output :set
+// Output :
+Enter n:16
+Enter bit:3
+Not Set
